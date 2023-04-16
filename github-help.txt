@@ -1,0 +1,24 @@
+git checkout -b icon
+[made a new branch called 'icon']
+
+
+git push origin icon
+[since we made changes to branch 'icon', push to this branch]
+
+
+when done....
+
+git checkout main
+[go back to the main]
+
+git merge icon
+[merge the new branch to the main]
+
+git push origin main
+[push changed main to github]
+
+git branch -d icon
+[delete branch no longer needed after merge]
+
+git push --delete origin icon
+[delete branch from github too]

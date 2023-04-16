@@ -45,3 +45,18 @@ code {
   background-color: #80120dd3;
   color: white;
 }
+
+.Add {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: fixed;
+  bottom: 50px; 
+  right: 20px;
+  padding: 10px;
+  z-index: 1;
+
+  border: none;
+  background: none;
+  cursor: pointer;
+}

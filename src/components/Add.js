@@ -1,7 +1,12 @@
+import AddCircleTwoToneIcon from '@mui/icons-material/AddCircleTwoTone';
+
 export default function Add() {
     return (
         <div className="Add">
-            <button>+</button>
+            <button className='Add'>
+                <AddCircleTwoToneIcon fontSize='large'/>
+            </button>
         </div>
     )
 }
+
