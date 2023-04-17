@@ -41,6 +41,15 @@ export default function Navbar() {
         >
           Habits
         </a>
+
+        <a 
+          href="#Notes"
+          onClick={() => handleLinkClick("Notes")} 
+          className={getLinkClass("Notes")}
+        >
+          Notes 
+        </a>
+
         </div>
       </div> 
   );
